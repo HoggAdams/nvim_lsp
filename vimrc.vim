@@ -1,0 +1,32 @@
+" 行号
+set number
+set relativenumber
+set nocompatible
+syntax on
+set mouse=a
+set encoding=utf-8
+" 缩进
+set autoindent
+set tabstop=4
+set shiftwidth=4
+" 检查文件
+filetype indent on
+" 高亮当前行
+set cursorline
+set  ruler
+" 自动换行
+set wrap
+set nowrap
+" 搜索
+set showmatch
+set hlsearch
+set incsearch
+set ignorecase
+set smartcase
+" Tab补全
+set wildmenu
+set wildmode=longest:list,full
+" Other
+set viewoptions=cursor,folds,slash,unix
+set guifont=FiraCode\ Nerd\ Font
+set clipboard+=unnamedplus
